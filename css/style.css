@@ -17,6 +17,7 @@ p {
 /* Header */
 
 .aligner {
+  /*  Display & Box Model */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -29,17 +30,20 @@ p {
 }
 
 .aligner-item {
-  text-align: center;
+  /* Display & Box Model */
   max-width: 50%;
+  padding: 10px;
   margin: 10px;
   border-style: solid;
   border-color: white;
+
+  /* Text */
+  text-align: center;
 }
 
 
-/* Temporary area for head illustration */
-
 .container {
+  /* Display & Box Model */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -54,15 +58,18 @@ p {
 
 
 .box {
+  /* Display & Box Model */
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  padding: 10px;
   margin: 10px;
-  text-align: center;
   border-style: solid;
   border-color: white;
+  
+  /* Text */
+  text-align: center;
 }
 
 
