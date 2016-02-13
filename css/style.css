@@ -1,5 +1,5 @@
 html {
-  background-color: #fdf6e3;
+  background-color: #C7F9EB;
 }
 
 /* Unused color turquoise A2E8D9 */
@@ -40,18 +40,19 @@ p {
   border-color: white;
   /* Text */
   text-align: center;
+  font-weight: bold;
 }
 
 .title {
   font-size: 48px;
-  color: #b58900;
+  color: #9F5B68;
   /* line shadow */
   position: relative;
   margin: 0 auto 80px;
   padding: 70px 0 40px;
   max-width: 840px;
   text-align: center;
-  background: #fdf6e3;
+  background: #C7F9EB;
 } 
 
 .title:after {
