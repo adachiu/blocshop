@@ -13,12 +13,12 @@ h1, h2, h3, p, ul {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  color: white;
-}
-
 p {
   color: #4E2A3E;
+}
+
+.fa {
+  color:#9F5B68;
 }
 
 /* Header */
@@ -91,6 +91,8 @@ p {
 
 .icon {
   display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .box {
@@ -116,6 +118,10 @@ p {
 }
 
 .intro {
+  /* Display & Box Model */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* Text */
   font-size: 16px;
 }
 
