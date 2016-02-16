@@ -4,7 +4,7 @@
 }
 
 html {
-  background-color: #C7F9EB;
+  background-color: snow;
 }
 
 /* Unused color turquoise A2E8D9 */
@@ -44,9 +44,6 @@ a:hover {
   align-items: center
   justify-content: center;
   padding: 30px;
-  margin: 10px;
-  border-style: solid;
-  border-color: white;
 }
 
 .aligner-item {
@@ -70,7 +67,7 @@ a:hover {
   padding: 70px 0 40px;
   max-width: 840px;
   text-align: center;
-  background: #C7F9EB;
+  background-color: snow;
 } 
 
 .title:after {
@@ -96,10 +93,8 @@ a:hover {
   align-content: center;
   justify-content: center;
   max-width: 100%;
-  padding: 30px;
-  margin: 10px;
-  border-style: solid;
-  border-color: white;
+  padding: 50px;
+  background-color: #C7F9EB;
 }
 
 .icon {
