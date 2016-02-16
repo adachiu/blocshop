@@ -21,6 +21,19 @@ p {
   color:#9F5B68;
 }
 
+.fa:hover {
+  color: C7F9EB;
+}
+
+a {
+  color: #9F5B68;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
 /* Header */
 
 .aligner {
