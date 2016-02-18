@@ -50,7 +50,7 @@ a:hover {
   /* Display & Box Model */
   max-width: 800px;
   padding: 10px;
-  margin: 10px;
+  margin-bottom: 50px;
   /* Text */
   text-align: center;
   font-weight: bold;
@@ -61,7 +61,7 @@ a:hover {
   color: #9F5B68;
   /* line shadow */
   position: relative;
-  margin: 0 auto 80px;
+  margin: 0 auto 50px;
   padding: 70px 0 40px;
   max-width: 840px;
   text-align: center;
@@ -95,12 +95,6 @@ a:hover {
   background-color: #C7F9EB;
 }
 
-.icon {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
 .box {
   /* Display & Box Model */
   display: flex;
@@ -131,41 +125,34 @@ a:hover {
   font-size: 16px;
 }
 
-/* Large desktops and laptops *
-@media (min-width: 1200px) {
-  .intro {
-
-  }
+.icon {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
-/* Landscape tablets and medium desktops *
-@media (min-width: 992px) and (max-width: 1199px) {
-  .intro {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-}
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
 
-/* Portrait tablets and small desktops *
-@media (min-width: 768px) and (max-width: 991px) {
-  .intro {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
+    .box {
+      width: 60%;
+      margin: 30px;
+    }
 
-/* Landscape phones and portrait tablets *
-@media (max-width: 767px) {
-  .intro {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
+    .name {
+      font-size: 50px;
+    }
 
-/* Portrait phones and smaller *
-@media (max-width: 480px) {
-  .intro {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+    .intro {
+      font-size: 40px;
+    }
+
+    .icon {
+      font-size: 40px;
+      padding-bottom: 60px;
+    }
 }
