@@ -131,6 +131,12 @@ a:hover {
   padding-bottom: 20px;
 }
 
+footer {
+  display: flex;
+  align-content: center;
+  margin: 50px;
+}
+
 /* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
